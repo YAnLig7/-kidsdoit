@@ -66,34 +66,43 @@
 <html>
    <head>
       <meta charset="utf-8">
+   </head> 
    <style>
-  	.bar {
-        position: relative;
-   		margin: 10px;
-   		position: absolute;
-   		margin-left: auto;
-   		margin-right: auto;
-   		bottom: 5px;
-   		width: 100%;
-   		text-align: center;
-  		}
-  	.foo {
-   		display:flex;
-   		flex-direction: flow;
-  		}
+  .bar {
+   position: relative;
+   margin: 10px;
+  }
+  .bar h4 {
+   position: absolute;
+   margin-left: auto;
+   margin-right: auto;
+   bottom: 5px;
+   width: 100%;
+   text-align: center;
+  }
+  .foo {
+   display:flex;
+   flex-direction: flow;
+  }
    </style>
-   </head>
    <body>
-     <p>新闻与活动</p>
-  <div class="bar" class="foo">
-   		<a href="">报道</a>
-   		<img src="564200022661415842.jpg" width="200" height="200">
+     <h1>新闻与活动</h1>
+  <div class="foo">
+  <div class="bar">
+   <h4><a href="">报道</a></h4>
+   <img src="564200022661415842.jpg" width="200" height="200">
    
-   		<a href="">演讲</a>
-   		<img src="210556937732948043.jpg" width="200" height="200">
+  </div>
+  <div class="bar">
+   <h4><a href="">演讲</a></h4>
+   <img src="210556937732948043.jpg" width="200" height="200">
    
-   		<a href="">学生周报</a>
-   		<img src="97476017875882188.jpg" width="200" height="200">
+  </div>
+  <div class="bar">
+   <h4><a href="">学生周报</a></h4>
+   <img src="97476017875882188.jpg" width="200" height="200">
+   
+  </div>
  </div>
    </body>
 </html>
